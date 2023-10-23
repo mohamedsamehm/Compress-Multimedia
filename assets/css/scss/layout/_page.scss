@@ -1,0 +1,104 @@
+/* Banner Ads */
+.adsbygoogle {
+  display: block;
+  height: 280px;
+}
+
+/* Page Heading */
+.page-heading {
+  margin-bottom: 15px;
+  background: #f9f9f9;
+  padding: 50px 0 30px;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px #b2bec3;
+}
+.page-heading h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #595f71;
+  margin-bottom: 20px;
+}
+.page-heading p {
+  max-width: 735px;
+  font-size: 1.25rem !important;
+  margin: auto !important;
+  margin-bottom: 1.5rem !important;
+  font-weight: 300 !important;
+}
+
+/* Form Upload */
+.form {
+  margin-bottom: 40px;
+}
+.box {
+  cursor: pointer;
+  border: 4px dashed #575757;
+  color: #575757;
+  padding: 10px 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.progress {
+  height: 30px;
+  display: none;
+}
+.progress-bar {
+  width: 0%;
+  height: 30px;
+}
+input[type="file"] {
+  display: none;
+}
+
+/* Social Networks */
+.social-networks {
+  font-size: 38px;
+}
+.icon-facebook-squared {
+  color: #3b579d;
+}
+.icon-twitter-squared {
+  color: #1da1f2;
+}
+.icon-linkedin {
+  color: #007bb5;
+}
+.icon-whatsapp {
+  color: #36c34e;
+}
+
+/* Tools List */
+.tools-list {
+  margin-bottom: 15px;
+  padding: 60px 0;
+  box-shadow: 10px 10px 5px #b2bec3;
+}
+.tool-panel {
+  background: #f9f9f9;
+  box-shadow: 10px 10px 5px #b2bec3;
+  padding: 40px 10px 30px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .tool-panel {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 30px;
+  }
+}
+.panel-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #009432;
+}
+.section-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #595f71;
+  margin-bottom: 30px;
+}

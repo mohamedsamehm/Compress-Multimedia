@@ -19,24 +19,19 @@
       content="Online tool to compress videos, images, audio and documents of up to 90% their original size, without losing quality. No watermark, good compression ratio, just select the file and wait, free to use." />
     <meta name="google-site-verification"
       content="awCnw39q3sbf0OaxTztD7tiVwCi5ov0Q3ux6YSgwfmg" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
-  <body class="lh-lg">
+  <body>
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container">
         <a class="navbar-brand" href="/">
-        <i class="fa-solid fa-camera"></i> <div
-          class="fw-bold d-inline-block">CLIP<span>COMPRESS</span></div>
+          <div class="span3 d-inline-block" title="Code: 0xe800">
+            <i class="icon icon-camera">&#xe800;</i>
+          </div>
+          <div class="fw-bold d-inline-block">CLIP<span>COMPRESS</span></div>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,7 +44,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link fw-bold dropdown-toggle" href="#"
                 role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+                data-toggle="dropdown" aria-expanded="false">
                 Compress
               </a>
               <ul class="dropdown-menu">
@@ -86,8 +81,8 @@
               <a class="nav-link fw-bold" href="faqs.html">Help / FAQs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#" data-bs-toggle="modal"
-                data-bs-target="#contactsModal">Contacts</a>
+              <a class="nav-link fw-bold" href="#" data-toggle="modal"
+                data-target="#contactsModal">Contacts</a>
             </li>
           </ul>
         </div>
@@ -100,7 +95,7 @@
             <h1 class="title">Compress Multimedia Files</h1>
           </div>
           <div class="col-lg-9 col-sm-10">
-            <p class="mb-4 fw-light m-auto fs-5">Online tool to compress
+            <p>Online tool to compress
               videos, images,
               audio and
               documents <br> of up to 90% their original size, without losing
@@ -112,9 +107,12 @@
               method="post" enctype="multipart/form-data">
               <input type="hidden" name="submitfile" value="1">
               <label for="file">
-                <div
-                  class="box cursor-pointer d-inline-block bg-white text-center">
-                  <span id="box-icon"><i class="fa-solid fa-upload"></i></span>
+                <div class="box">
+                  <span id="box-icon">
+                    <span class="span3" title="Code: 0xe802">
+                      <i class="icon icon-upload">&#xe802;</i>
+                    </span>
+                  </span>
                   <span id="box-text">Select File to Compress</span>
                 </div>
               </label>
@@ -136,11 +134,11 @@
                 data-adsbygoogle-status="done"
                 data-ad-status="filled">
                 <div id="aswift_1_host"
-                  style="border: none; height: 280px; width: 735px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"
+                  style="border: none; height: 280px; width: 735px;max-width: 100%;margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"
                   tabindex="0" title="Advertisement" aria-label="Advertisement">
                   <iframe
                     id="aswift_1" name="aswift_1"
-                    style="left:0;position:absolute;top:0;border:0;width:735px;height:280px;"
+                    style="left:0;position:absolute;top:0;border:0;width:735px;height:280px;max-width: 100%;"
                     sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
                     width="735" height="280" frameborder="0" marginwidth="0"
                     marginheight="0" vspace="0" hspace="0"
@@ -156,19 +154,18 @@
             <div class="social-networks">
               <a
                 href="https://www.facebook.com/sharer/sharer.php?u=https://www.clipcompress.com/"
-                target="_blank" title="Facebook"><i
-                  class="fa-brands fa-square-facebook" aria-hidden="true"></i></a>
+                target="_blank" title="Facebook"><span class="span3"
+                  title="Code: 0xf308"><i class="icon icon-facebook-squared">&#xf308;</i></span></a>
               <a href="https://twitter.com/intent/tweet" target="_blank"
-                title="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                title="Twitter"><span class="span3" title="Code: 0xf304"><i
+                    class="icon icon-twitter-squared">&#xf304;</i></span></a>
               <a
                 href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.clipcompress.com/"
-                target="_blank" title="Linkedin"><i
-                  class="fa-brands fa-linkedin"
-                  aria-hidden="true"></i></a>
+                target="_blank" title="Linkedin"><span class="span3"
+                  title="Code: 0xf30c"><i class="icon icon-linkedin-squared">&#xf30c;</i></span></a>
               <a href="https://wa.me/?text=https://www.clipcompress.com/"
-                target="_blank" title="Whatsapp"><i
-                  class="fa-brands fa-whatsapp"
-                  aria-hidden="true"></i></a>
+                target="_blank" title="Whatsapp"><span class="span3"
+                  title="Code: 0xf232"><i class="icon icon-whatsapp">&#xf232;</i></span></a>
             </div>
           </div>
         </div>
@@ -193,8 +190,9 @@
         <div class="row no-gutters">
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                Compress Many File Types</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> Compress Many File Types</h3>
               <p class="info">
                 AVI, MP4, MP3, WAV, MOV, PDF, GIF, PNG, JPG, TIFF, DOC, DOCX,
                 XLS, XLSX, PPT, PPTX, ODT, APK.
@@ -203,8 +201,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                Secure Connection</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> Secure Connection</h3>
               <p class="info">
                 Our service uses a secure HTTPS connection so you can safely
                 upload your files.
@@ -213,8 +212,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                Compress All Your Files</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> Compress All Your Files</h3>
               <p class="info">
                 There is no limit in the number of files you can compress with
                 our service (use it ethically!).
@@ -223,8 +223,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                From Any Web Browser</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> From Any Web Browser</h3>
               <p class="info">
                 This service works from any modern web browser, such as Gogole
                 Chrome, Mozilla Firefox, etc.
@@ -233,8 +234,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                Online File Compression</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> Online File Compression</h3>
               <p class="info">
                 You do not need to install any software or addon to compress
                 files, all is done in the cloud.
@@ -243,8 +245,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                All Files Are Deleted</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> All Files Are Deleted</h3>
               <p class="info">
                 Both uploaded and compressed files are removed from our
                 servers
@@ -254,8 +257,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                Nothing to Configure</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> Nothing to Configure</h3>
               <p class="info">
                 It is super easy to use our service, you just need to select
                 the
@@ -265,8 +269,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                Quality is Preserved</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> Quality is Preserved</h3>
               <p class="info">
                 We use the smartest settings to keep a good visual quality
                 when
@@ -276,8 +281,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                Without Watermark</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> Without Watermark</h3>
               <p class="info">
                 Compressed files do not contain any watermark... yes you got
                 it
@@ -287,8 +293,9 @@
           </div>
           <div class="col-md-6">
             <div class="tool-panel text-center">
-              <h3 class="panel-title"><i class="fa-solid fa-check"></i>
-                Totally Free to Use</h3>
+              <h3 class="panel-title"><span class="span3" title="Code: 0xe801">
+                  <i class="icon icon-ok">&#xe801;</i>
+                </span> Totally Free to Use</h3>
               <p class="info">
                 You don't have to pay a single cent (or penny?) to compress
                 files online with our service.
@@ -329,19 +336,18 @@
             <div class="social-networks">
               <a
                 href="https://www.facebook.com/sharer/sharer.php?u=https://www.clipcompress.com/"
-                target="_blank" title="Facebook"><i
-                  class="fa-brands fa-square-facebook" aria-hidden="true"></i></a>
+                target="_blank" title="Facebook"><span class="span3"
+                  title="Code: 0xf308"><i class="icon icon-facebook-squared">&#xf308;</i></span></a>
               <a href="https://twitter.com/intent/tweet" target="_blank"
-                title="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                title="Twitter"><span class="span3" title="Code: 0xf304"><i
+                    class="icon icon-twitter-squared">&#xf304;</i></span></a>
               <a
                 href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.clipcompress.com/"
-                target="_blank" title="Linkedin"><i
-                  class="fa-brands fa-linkedin"
-                  aria-hidden="true"></i></a>
+                target="_blank" title="Linkedin"><span class="span3"
+                  title="Code: 0xf30c"><i class="icon icon-linkedin-squared">&#xf30c;</i></span></a>
               <a href="https://wa.me/?text=https://www.clipcompress.com/"
-                target="_blank" title="Whatsapp"><i
-                  class="fa-brands fa-whatsapp"
-                  aria-hidden="true"></i></a>
+                target="_blank" title="Whatsapp"><span class="span3"
+                  title="Code: 0xf232"><i class="icon icon-whatsapp">&#xf232;</i></span></a>
             </div>
           </div>
         </div>
@@ -370,7 +376,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="contactsModalLabel">Contact Details</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"
+            <button type="button" class="btn-close" data-dismiss="modal"
               aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -385,12 +391,12 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary"
-              data-bs-dismiss="modal">Close</button>
+              data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/file-upload.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
