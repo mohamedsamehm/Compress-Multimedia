@@ -352,3 +352,11 @@ label {
   font-weight: bold;
   margin: 10px 0 20px 0;
 }
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 2s linear infinite; /* Adjust duration and other properties as needed */
+}

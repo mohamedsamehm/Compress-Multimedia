@@ -119,8 +119,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "| Elapsed: " + secondsTimeSpanToHMS(++seconds);
     }, 1000);
 
-    document.getElementById("box-icon").innerHTML =
-      "<i class='fa fa-spinner fa-spin'></i>";
+    document.getElementById(
+      "box-icon"
+    ).innerHTML = `<span class="span3" title="Code: 0xf110"><i class="icon icon-spinner spin">&#xf110;</i></span>`;
+      
 
     document.getElementById("box-text").innerHTML =
       "Uploading File... Progress 0%";
