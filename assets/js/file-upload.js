@@ -197,8 +197,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function simpleUpload(url, options) {
+    console.log('test');
     const fileInput = document.querySelector("input[type=file]");
     const file = fileInput.files[0];
+    console.log(file);
 
     // Check max file size
     if (file.size > options.maxFileSize) {
