@@ -122,7 +122,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById(
       "box-icon"
     ).innerHTML = `<span class="span3" title="Code: 0xf110"><i class="icon icon-spinner spin">&#xf110;</i></span>`;
-      
 
     document.getElementById("box-text").innerHTML =
       "Uploading File... Progress 0%";
@@ -170,14 +169,14 @@ document.addEventListener("DOMContentLoaded", function () {
     if (result.success === true) {
       let messageHTML = "";
       if (result.compressed) {
-        messageHTML = `<div class="success-message"><i class="fa fa-check" aria-hidden="true"></i> Completed: <a href="${result.proto}://${result.host}/download.php?hash=${result.hash}" target="_blank" rel="nofollow">Download (${result.human_filesize} => ${result.new_human_filesize}, ${result.percent}%)</a></div><div><a href="${result.proto}://${result.host}/delete-file.php?hash=${result.hash}" target="_blank" rel="nofollow" class="text-danger"><i class="fa fa-trash" aria-hidden="true"></i> Delete file from server</a></div>`;
+        messageHTML = `<div class="success-message"><i class="icon icon-ok">&#xe801;</i> Completed: <a href="${result.proto}://${result.host}/download.php?hash=${result.hash}" target="_blank" rel="nofollow"><b>Download (${result.human_filesize} => ${result.new_human_filesize}, ${result.percent}%)</b></a></div><div><a href="${result.proto}://${result.host}/delete-file.php?hash=${result.hash}" target="_blank" rel="nofollow">Delete file from server</a></div>`;
       } else {
-        messageHTML = `<div class="success-message"><i class="fa fa-check" aria-hidden="true"></i> Completed: File is already compressed...</div><div><a href="${result.proto}://${result.host}/delete-file.php?hash=${result.hash}" target="_blank" rel="nofollow" class="text-danger"><i class="fa fa-trash" aria-hidden="true"></i> Delete file from server</a></div>`;
+        messageHTML = `<div class="success-message"><i class="icon icon-ok">&#xe801;</i> Completed: File is already compressed...</div><div><a href="${result.proto}://${result.host}/delete-file.php?hash=${result.hash}" target="_blank" rel="nofollow">Delete file from server</a></div>`;
       }
       resultMessageElem.innerHTML = messageHTML;
     } else {
       // If not successful
-      resultMessageElem.innerHTML = `<div class="error-message"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> ${result.error}</div>`;
+      resultMessageElem.innerHTML = `<div class="error-message"><i class="icon icon-attention">&#xe803;</i> ${result.error}</div>`;
     }
 
     // Show the message
@@ -190,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .forEach((el) => (el.style.cursor = "pointer"));
 
     document.getElementById("box-icon").innerHTML =
-      "<i class='fa fa-upload'></i>";
+      '<i class="icon icon-upload">&#xe802;</i>';
 
     document.getElementById("box-text").innerHTML = "Select File to Compress";
 

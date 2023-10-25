@@ -315,7 +315,7 @@ img {
 }
 
 .progress {
-  display: flex;
+  display: none;
   height: 30px;
   overflow: hidden;
   font-size: 0.75rem;
@@ -359,4 +359,16 @@ label {
 
 .spin {
   animation: spin 2s linear infinite; /* Adjust duration and other properties as needed */
+}
+
+.result-message a {
+  color: #3939d0!important;
+}
+
+.success-message {
+  color: #27ae60;
+}
+
+.error-message {
+  color: #cc0000;
 }
